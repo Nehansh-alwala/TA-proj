@@ -1,0 +1,45 @@
+.signup-container {
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .role-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .role-option {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .role-option:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .signup-form {
+    margin-top: 30px;
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  

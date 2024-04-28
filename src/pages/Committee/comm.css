@@ -1,0 +1,95 @@
+/* comm.css */
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    /* background-color: #f2f2f2; */
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Accepted and rejected status styles */
+  span.status {
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  span.accepted {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  span.rejected {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* User details container styles */
+  .user-details {
+    margin-top: 20px;
+  }
+  
+  .user-details p {
+    margin-bottom: 8px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative; /* Add this line */
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .close-btn:hover {
+    color: #333;
+  }
+  
+  .m_60c222c7 {
+    margin-top: 100px;
+  }
+  
